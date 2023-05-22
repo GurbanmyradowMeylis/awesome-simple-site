@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>all projects</title>
+  </head>
+  <body>
+    <a href="#" class="top">top</a>
+    <!-- responsive navbar -->
+    <header>
+      <nav>
+        <a class="logo" href="">Tiger Codes</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#awesomeLists">awesome lists</a></li>
+          <li><a href="#buttons">hoverable buttons</a></li>
+          <li><a href="#awesome-btn">hoverable buttons(awesome)</a></li>
+          <li><a href="#signin"> registration from</a></li>
+          <li><a href="#animationFlipping">animation Flipping</a></li>
+          <li><a href="#tooltips">tooltip</a></li>
+          <li><a href="#boxes">transforming boxes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- lists -->
+    <section id="awesomeLists">
+      <div class="ol">
+        <ol>
+          <li>tea</li>
+          <li>coffee</li>
+          <li>coke</li>
+        </ol>
+      </div>
+
+      <div class="ul">
+        <ul>
+          <li>fanta</li>
+          <li>Lorem.</li>
+          <li>Lorem.</li>
+        </ul>
+      </div>
+    </section>
+    <!-- hoverable buttons -->
+    <section id="buttons">
+      <div class="contianer">
+        <button class="btn btn1">hover me</button>
+        <button class="btn btn2">hover me</button>
+        <button class="btn btn3">hover me</button>
+        <button class="btn btn4">hover me</button>
+      </div>
+    </section>
+    <!--just wonderful hoverable buttons  -->
+    <section id="awesome-btn">
+      <div class="container">
+        <button class="btn-1">HOVER ME!</button>
+        <button class="btn-2">AWESOME!</button>
+      </div>
+    </section>
+    <!-- registration form working only style -->
+    <section id="signin">
+      <div class="center">
+        <h1>login</h1>
+        <form method="post">
+          <div class="txt-field">
+            <input type="text" required />
+            <span></span>
+            <label>user name</label>
+          </div>
+          <div class="txt-field">
+            <input type="password" required />
+            <span></span>
+            <label>password</label>
+          </div>
+          <div class="pass">forgot password?</div>
+          <input type="submit" value="login" />
+          <div class="signup_link">not a member <a href="#">signup</a></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- flipping animation  -->
+    <section id="animationFlipping">
+      <div class="card">
+        <div class="card__content">
+          <div class="card__front">
+            <h3 class="card__title">the fair</h3>
+            <p class="card__subtitle">time for some fun!</p>
+          </div>
+          <div class="card__back">
+            <p class="card__body">
+              this would be some longer text that gives a description of the
+              things from the other side I guess
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tooltip -->
+    <section id="tooltips">
+      <div id="tooltip">
+        <span id="tooltipText">tooltip text</span>
+        <span>hover over me</span>
+      </div>
+    </section>
+
+    <!-- transforming boxes -->
+    <section id="boxes">
+      <div class="box box1">box</div>
+      <div class="box box2">box</div>
+      <div class="box box3">box</div>
+      <div class="box box4">box</div>
+      <div class="box box5">box</div>
+      <div class="box box6">box</div>
+      <div class="box box7">box</div>
+      <div class="box box8">box</div>
+      <div class="box box9">box</div>
+      <div class="box box10">box</div>
+    </section>
+
+    <!--  paginaion -->
+    <section id="pagination2">
+      <ul class="page">
+        <a href="#awesomeLists"> <li>awesomeLists</li></a>
+        <a href="#buttons"> <li>hoverable buttons</li></a>
+        <a href="#awesome-btn"> <li>awesome buttons</li></a>
+        <a href="#signin"> <li>registration form</li></a>
+        <a href="#" class="active"><li>top</li></a>
+        <a href="#animationFlipping"><li>animation Flipping</li></a>
+        <a href="#page"><li>5</li></a>
+        <li>...</li>
+        <a href="#boxes"><li>transforming boxes</li></a>
+      </ul>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
